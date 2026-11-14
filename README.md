@@ -9,9 +9,11 @@ The DSH ecosystem is growing faster than anyone can track. Official numbers are 
 
 | Path | Meaning |
 |---|---|
-| `data/2026-11/snapshot.json` | first snapshot: DSH repo stats, GitHub topic counts, npm search totals, top repos, top package downloads |
+| `data/<YYYY-MM>/snapshot-<YYYY-MM-DD>.json` | dated snapshot: DSH repo stats, GitHub topic counts, npm search totals, top repos, top package downloads |
+| `data/latest.json` | most recent snapshot |
 | `data/timeline.jsonl` | dated events (releases, metrics, statements) with source URLs |
-| `scripts/snapshot.mjs` | reproducible collector |
+| `scripts/snapshot.mjs` | reproducible collector (writes a dated file + latest.json) |
+| `scripts/delta.mjs` | compare two snapshots |
 | `index.html` | static dashboard |
 | `docs/METHODOLOGY.md` | definitions, known limitations |
 
@@ -36,8 +38,3 @@ Time series cannot be backfilled. If the ecosystem is 10x bigger in 2028, the on
 
 - Data: CC-BY-4.0 (attribute "DSH Ecosystem Archive, PerryLink").
 - Code: MIT.
-
-## Related seeds
-
-- [dsh-compat-baseline](https://github.com/PerryLink/dsh-compat-baseline) — HCB: declared plugin × host compatibility matrix.
-- [dsh-enterprise-reference](https://github.com/PerryLink/dsh-enterprise-reference) — enterprise reference architecture and checklist.
