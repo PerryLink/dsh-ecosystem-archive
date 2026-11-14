@@ -36,3 +36,8 @@ Time series cannot be backfilled. If the ecosystem is 10x bigger in 2028, the on
 
 - Data: CC-BY-4.0 (attribute "DSH Ecosystem Archive, PerryLink").
 - Code: MIT.
+
+## Related seeds
+
+- [dsh-compat-baseline](https://github.com/PerryLink/dsh-compat-baseline) — HCB: declared plugin × host compatibility matrix.
+- [dsh-enterprise-reference](https://github.com/PerryLink/dsh-enterprise-reference) — enterprise reference architecture and checklist.
