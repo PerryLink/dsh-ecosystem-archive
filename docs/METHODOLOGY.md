@@ -15,5 +15,11 @@
 - No deduplication between GitHub and npm.
 - Official claims are not audited.
 
+## Files
+
+- `data/<YYYY-MM>/snapshot-<YYYY-MM-DD>.json`: dated snapshot (never overwrite).
+- `data/latest.json`: copy of the most recent snapshot.
+- `scripts/delta.mjs <base> <next>`: diff two snapshots.
+
 ## Change policy
 Never edit a past snapshot. Add a new month. Corrections go to `data/ERRATA.md`.
