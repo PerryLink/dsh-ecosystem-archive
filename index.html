@@ -1,0 +1,10 @@
+<!doctype html><html><head><meta charset="utf-8"><title>DSH Ecosystem Archive</title>
+<style>body{font:14px/1.5 system-ui,sans-serif;margin:24px;color:#111}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:6px 8px;text-align:left}th{background:#f6f6f6}code{background:#f3f3f3;padding:1px 4px}.m{font-size:32px;font-weight:700}</style></head>
+<body><h1>DSH Ecosystem Archive</h1><p>Independent snapshot. Not affiliated with DeepSeek.</p><div id="cards"></div><h2>Top repos (by stars)</h2><table><thead><tr><th>repo</th><th>stars</th><th>forks</th><th>pushed</th></tr></thead><tbody id="repos"></tbody></table>
+<script>
+fetch('data/2026-11/snapshot.json').then(r=>r.json()).then(d=>{
+ const f=d.figures; const cards=[['DSH stars',f.dsh.stars],['DSH forks',f.dsh.forks],['releases',f.dsh.releases],['topic:dsh-plugin',f.github.topicDshPlugin],['npm search (broad)',f.npm.searchTotalBroad]];
+ document.getElementById('cards').innerHTML=cards.map(([k,v])=>'<div style="display:inline-block;margin:8px 24px 8px 0"><div class="m">'+v+'</div><div>'+k+'</div></div>').join('');
+ document.getElementById('repos').innerHTML=d.topRepos.map(x=>'<tr><td><code>'+x.full_name+'</code></td><td>'+x.stars+'</td><td>'+x.forks+'</td><td>'+String(x.pushed_at).slice(0,10)+'</td></tr>').join('');
+}).catch(e=>document.body.insertAdjacentHTML('beforeend','<p>Failed: '+e+'</p>'));
+</script></body></html>
