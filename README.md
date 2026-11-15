@@ -5,6 +5,21 @@
 
 The DSH ecosystem is growing faster than anyone can track. Official numbers are self-reported and change monthly. This archive keeps **monthly snapshots** and an **event timeline**, so future claims can be checked against a dated record.
 
+## Latest snapshot (2026-11-15)
+
+Source files: [`data/2026-11/snapshot.json`](data/2026-11/snapshot.json) · [`data/timeline.jsonl`](data/timeline.jsonl)
+
+| Signal | Latest value |
+|---|---|
+| DSH repository | 280,662 stars · 34,621 forks · 39 releases · latest `dsh-v0.2.2-rc.3` |
+| GitHub `topic:dsh-plugin` | 30,924 repositories |
+| npm `dsh-plugin` search (broad) | 309,294 |
+| HCB | **v0.10.1** |
+| HCB plugins | **143** |
+| HCB evidence | **143 checked** · 0 declared · 0 tested · 2 ENTRY failed · 3 FLOW manual |
+| HCB coverage | **112/112 family** + **31/31 external** |
+| HCB gate | 2 blocked · 21 review · 120 pilot |
+
 ## What is here
 
 | Path | Meaning |

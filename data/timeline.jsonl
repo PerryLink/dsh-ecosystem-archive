@@ -7,3 +7,4 @@
 {"date":"2026-11-08","type":"statement","title":"Cui: \"our hope is DSH can be the operating system of the agent era\"","source":"https://x.com/tianyi/status/2119433744671273441"}
 {"date":"2026-11-13","type":"api","title":"DeepSeek full-stack app APIs + DSH session import plugin","source":"https://api-docs.deepseek.com/zh-cn/updates/"}
 {"date":"2026-11-14","type":"seed","title":"HCB v0.1 + DSH ecosystem archive v0 published","source":"https://github.com/PerryLink/dsh-compat-baseline"}
+{"date":"2026-11-15","type":"metric","title":"HCB v0.10.1: 143/143 plugins checked, 0 declared, 0 tested, 3 FLOW manual; gate 2 blocked / 21 review / 120 pilot","source":"https://github.com/PerryLink/dsh-hcb"}
