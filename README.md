@@ -14,12 +14,12 @@ Source files: [`data/2026-11/snapshot.json`](data/2026-11/snapshot.json) · [`da
 | DSH repository | 280,662 stars · 34,621 forks · 39 releases · latest `dsh-v0.2.2-rc.3` |
 | GitHub `topic:dsh-plugin` | 30,924 repositories |
 | npm `dsh-plugin` search (broad) | 309,294 |
-| HCB | **v0.11.0** |
+| HCB | **v0.11.1** |
 | HCB plugins | **143** |
 | HCB evidence | **142 checked** · 0 declared · **1 tested** · 2 ENTRY failed · 3 FLOW manual |
 | HCB tested row | `dsh-plugin-guide@0.5.9` (ENTRY runtime, host `0.2.2-rc.3`) |
 | HCB coverage | **112/112 family** + **31/31 external** |
-| HCB gate | 2 blocked · 21 review · 119 pilot · **1 production-candidate** |
+| HCB gate | 2 blocked · 30 review · 110 pilot · **1 production-candidate** |
 
 ## What is here
 
