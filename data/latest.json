@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T10:43:58.600Z",
+  "generatedAt": "2026-11-15T11:49:38.883Z",
   "month": "2026-11",
   "sources": {
     "github": "api.github.com",
@@ -82,21 +82,23 @@
       }
     ],
     "hcb": {
-      "version": "0.10.1",
+      "version": "0.11.0",
       "source": "https://github.com/PerryLink/dsh-hcb",
-      "sourceCommit": "a7a93739baa12a2cf6bb299c8ca7f6406c97895f",
-      "matrixSha256": "6b05bef7a0c8901beca810299d5e7a2e7dd1f73a1288ecd62e45fcea1c549d4f",
-      "capturedAt": "2026-11-15T10:43:58.600Z",
+      "sourceCommit": "bfe70f55da22039ef89177d563648dc53e3f14bd",
+      "matrixSha256": "cdc6b149c6697ea50cfc22c3f337f468273214940b63c52f84a5d482bd355338",
+      "capturedAt": "2026-11-15T11:49:38.883Z",
       "plugins": 143,
-      "checked": 143,
+      "checked": 142,
       "declared": 0,
-      "tested": 0,
+      "tested": 1,
+      "testedRow": "dsh-plugin-guide@0.5.9",
       "failed": 2,
       "manual": 3,
       "gate": {
         "blocked": 2,
         "review": 21,
-        "pilot": 120
+        "pilot": 119,
+        "production-candidate": 1
       },
       "coverage": {
         "family": {
